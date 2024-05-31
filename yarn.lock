@@ -12697,10 +12697,10 @@ uuid@^3.3.2:
   resolved "https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz"
   integrity sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
 
-uuidjs@4.2.11:
-  version "4.2.11"
-  resolved "https://registry.npmjs.org/uuidjs/-/uuidjs-4.2.11.tgz"
-  integrity sha512-uSd98rMEeoOEfCFphspo8f9N6eyrLv4Qhew56XciomGemP4uOYZ/fLZUPpnlJklVSsAV2S6Hd5p2XzF/ub5kxA==
+uuidjs@4.2.14:
+  version "4.2.14"
+  resolved "https://registry.yarnpkg.com/uuidjs/-/uuidjs-4.2.14.tgz#ff293ee873a0f169752d5307deae07cb8e53b773"
+  integrity sha512-Z4iL8AWHlTWeAmi6v1TCPKBF5QkTxpdLDS2yrAm9cA9GvEwWFxnRm7uEEcDY5TrZuO2A/cLQyeuXjlohAMcCIQ==
 
 v8-compile-cache@^2.0.3:
   version "2.3.0"
