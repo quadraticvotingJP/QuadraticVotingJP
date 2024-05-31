@@ -74,9 +74,7 @@ function MyApp({ Component, pageProps }: AppProps) {
             {isLandingPage ? (
               <LPMain>
                 <Component {...pageProps} />
-                <BottomAdSense>
-                  <EcAdSense format="auto" adSense />
-                </BottomAdSense>
+                <BottomAdSense>{/* <EcAdSense /> */}</BottomAdSense>
               </LPMain>
             ) : (
               <Main>
@@ -84,13 +82,19 @@ function MyApp({ Component, pageProps }: AppProps) {
                   <Component {...pageProps} />
                   {RESPONSIVE.SIZE_SP && (
                     <BottomAdSense>
-                      <EcAdSense format="auto" adSense />
+                      <EcAdSense
+                        client={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_PUB}
+                        slot={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_SLOT}
+                      />
                     </BottomAdSense>
                   )}
                 </Page>
                 {SIZE_PC_TAB && (
                   <PageAdSense>
-                    <EcAdSense format="auto" adSense />
+                    <EcAdSense
+                      client={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_PUB}
+                      slot={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_SLOT}
+                    />
                   </PageAdSense>
                 )}
               </Main>
