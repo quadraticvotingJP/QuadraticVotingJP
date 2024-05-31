@@ -1158,10 +1158,10 @@
   resolved "https://registry.npmjs.org/@colors/colors/-/colors-1.5.0.tgz"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
-"@corex/deepmerge@^4.0.26":
-  version "4.0.26"
-  resolved "https://registry.npmjs.org/@corex/deepmerge/-/deepmerge-4.0.26.tgz"
-  integrity sha512-Tp0u2/h45uWbZhsjazK9W6WwwTVBqCIY+1qJHfy6QWN0qUw6vCWLnJhB+Gg9dpQZ26q3ygd6aj49DtXUDq56JQ==
+"@corex/deepmerge@^4.0.29":
+  version "4.0.37"
+  resolved "https://registry.yarnpkg.com/@corex/deepmerge/-/deepmerge-4.0.37.tgz#873dcf71aee46596d7e385437b0d94770ef4c85f"
+  integrity sha512-PX90bEnrLdxd5e6rSFWsghExMuSw0Uov3fWJuuaoFuUQIS/446diu/4seExK5b+43L+SOBbd2uBGwYUkG1JfCw==
 
 "@design-systems/utils@2.12.0":
   version "2.12.0"
@@ -9479,6 +9479,11 @@ minimist@^1.1.1, minimist@^1.1.3, minimist@^1.2.0, minimist@^1.2.5, minimist@^1.
   resolved "https://registry.npmjs.org/minimist/-/minimist-1.2.6.tgz"
   integrity sha512-Jsjnk4bw3YJqYzbdyBiNsPWHPfO++UGG749Cxs6peCu5Xg4nrena6OVxOYxrQTqww0Jmwt+Ref8rggumkTLz9Q==
 
+minimist@^1.2.7:
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/minimist/-/minimist-1.2.8.tgz#c1a464e7693302e082a075cee0c057741ac4772c"
+  integrity sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==
+
 minipass-collect@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/minipass-collect/-/minipass-collect-1.0.2.tgz"
@@ -9648,13 +9653,13 @@ next-seo@5.4.0:
   resolved "https://registry.npmjs.org/next-seo/-/next-seo-5.4.0.tgz"
   integrity sha512-R9DhajPwJnR/lsF2hZ8cN8uqr5CVITsRrCG1AF5+ufcaybKYOvnH8sH9MaH4/hpkps3PQ9H71S7J7SPYixAYzQ==
 
-next-sitemap@3.1.7:
-  version "3.1.7"
-  resolved "https://registry.npmjs.org/next-sitemap/-/next-sitemap-3.1.7.tgz"
-  integrity sha512-8o+rUftEtZ7d3s2BedBLeN0HZHPAtcvliA/YesP/2o7Llb5svvM/pqVBde17MgTEuGMZpHz6nqruHKGCt53G3Q==
+next-sitemap@3.1.55:
+  version "3.1.55"
+  resolved "https://registry.yarnpkg.com/next-sitemap/-/next-sitemap-3.1.55.tgz#9ba3ce6a22d8da641c241ddd644e1e3aef9a13c5"
+  integrity sha512-ZjkRfkqoSLbU+e8W9TWWe0zfOGNA47lpvm35kNcUCmj73gpLX2PIn51gwHT/B6bgGVAFYY0OXixJDrxIIwcEHw==
   dependencies:
-    "@corex/deepmerge" "^4.0.26"
-    minimist "^1.2.6"
+    "@corex/deepmerge" "^4.0.29"
+    minimist "^1.2.7"
 
 next@12.1.6:
   version "12.1.6"

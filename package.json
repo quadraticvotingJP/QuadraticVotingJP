@@ -67,7 +67,7 @@
     "eslint-config-next": "12.1.6",
     "jest": "^27.0.4",
     "jest-watch-typeahead": "^0.6.1",
-    "next-sitemap": "3.1.7",
+    "next-sitemap": "3.1.55",
     "postcss": "8.4.14",
     "prettier": "2.7.1",
     "react-chartjs-2": "4.2.0",
