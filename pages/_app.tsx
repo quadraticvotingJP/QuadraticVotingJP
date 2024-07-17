@@ -22,8 +22,6 @@ import { signInAnonymously } from "firebase/auth";
 // component
 import { MoHeader, MoFooter } from "@/components/molecules/EntryPoint";
 import { EcAdSense, EcLoading } from "@/components/ecosystems/EntryPoint";
-// application
-import { routerPush } from "@/architecture/application/routing";
 
 function MyApp({ Component, pageProps }: AppProps) {
   const RESPONSIVE = useScreenSize();
@@ -74,26 +72,18 @@ function MyApp({ Component, pageProps }: AppProps) {
             {isLandingPage ? (
               <LPMain>
                 <Component {...pageProps} />
-                <BottomAdSense>{/* <EcAdSense /> */}</BottomAdSense>
               </LPMain>
             ) : (
               <Main>
                 <Page>
                   <Component {...pageProps} />
-                  {RESPONSIVE.SIZE_SP && (
-                    <BottomAdSense>
-                      <EcAdSense
-                        client={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_PUB}
-                        slot={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_SLOT}
-                      />
-                    </BottomAdSense>
-                  )}
                 </Page>
                 {SIZE_PC_TAB && (
                   <PageAdSense>
                     <EcAdSense
-                      client={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_PUB}
                       slot={process.env.NEXT_PUBLIC_GOOGLE_ADSENCE_SLOT}
+                      format="auto"
+                      dataFullWidthResponsive
                     />
                   </PageAdSense>
                 )}
